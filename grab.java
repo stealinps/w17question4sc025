@@ -21,7 +21,7 @@ class grab{
           if(low>k[i]){
               low=k[i];}}
       double average;
-      average=total/i;
+      average=(double)total/i;
       System.out.println("Total order this week is "+total);
       System.out.println("Highest order this weeks is "+high);
       System.out.println("Lowest order this weeks is "+low);
